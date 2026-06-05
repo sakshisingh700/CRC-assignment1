@@ -1,44 +1,5 @@
-
-        // function validateForm() {
-
-        //     let roll = document.getElementById("101").value;
-        //     let  studentName = document.getElementById("102").value;
-        //     let fatherName = document.getElementById("103").value;
-        //     let dob = document.getElementById("104").value;
-        //     let mobile = document.getElementById("105").value;
-        //     let email = document.getElementById("106").value;
-        //     let password = document.getElementById("107").value;
-        //     let Gender = document.getElementById("108").value;
-        //     let Department = document.getElementById("109").value;
-        //     let city = document.getElementById("110").value;
-        //     let Address = document.getElementById("111").value;
-        //     let pincode = document.getElementById("112").value;
-        //     if(roll==""||studentName==""||fatherName==""||dob==""||mobile==""||email==""||password==""||Gender==""|| Department==""||city==""||Address==""||pincode=="")
-        //         {
-        //             alert("All fields are mandatory");
-        //             return false;
-        //         }
-                
-
-        //         else if(isNaN(mobile)){
-        //             alert("Only Numbers are allowed ! Please enter valid Number")
-        //             return false;
-        //         }
-        //         else
-        //         {
-        //             true;
-        //         }
-
-
-        //         if(mobile.length<10||mobile.length>10){
-        //             alert("Number should be of 10 digits ! Please enter your valid Number")
-        //             return false;
-        //         }
-        //     }
-           
-        
+  
 function validateForm() {
-
     let rollNo = document.getElementById("rollNo").value;
     let studentName = document.getElementById("studentName").value;
     let fatherName = document.getElementById("fatherName").value;
