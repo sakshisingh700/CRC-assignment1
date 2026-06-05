@@ -1,0 +1,111 @@
+
+<html>
+<head>
+    <title>Student Registration Form</title>
+     <script src="registration.js"></script> 
+</head>
+
+<body>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color:#4CAF50;
+}
+</style>
+<h2>Student Registration Form</h2>
+
+<form action="regist.html" onsubmit="return validateForm()">
+
+    <label>Roll No:</label>
+    <input type="text" id="rollNo"><br><br>
+
+    <label>Student Name:</label>
+    <input type="text" id="studentName"><br><br>
+
+    <label>Father's Name:</label>
+    <input type="text" id="fatherName"><br><br>
+
+    <label>Date of Birth:</label>
+    <input type="date" id="dob"><br><br>
+
+    <label>Mobile No:</label>
+    <input type="text" id="mobile"><br><br>
+
+    <label>Email ID:</label>
+    <input type="email" id="email"><br><br>
+
+    <label>Password:</label>
+    <input type="password" id="password"><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female<br><br>
+
+    <label>Department:</label>
+    <input type="checkbox" name="dept" value="CSE"> CSE
+    <input type="checkbox" name="dept" value="IT"> IT
+    <input type="checkbox" name="dept" value="ECE"> ECE
+    <input type="checkbox" name="dept" value="MCA"> MCA<br><br>
+
+    <label>City:</label>
+    <input type="text" id="city"><br><br>
+
+    <label>Address:</label>
+    <input type="text" id="address"><br><br>
+
+    <label>Pincode:</label>
+    <input type="text" id="pincode"><br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
